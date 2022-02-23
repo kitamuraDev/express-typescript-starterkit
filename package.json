@@ -55,7 +55,6 @@
   },
   "lint-staged": {
     "src/**/*.{js,ts}": [
-      "prettier --write --loglevel=error",
       "eslint --fix --quiet"
     ]
   }
